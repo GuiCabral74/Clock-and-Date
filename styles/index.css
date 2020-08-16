@@ -1,0 +1,69 @@
+/*GENERAL DOCUMENT*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000;
+	height: -webkit-fill-available;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+body .container {
+	height: 250px;
+	width: 750px;
+	background-color: blueviolet;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.conteudo {
+	align-items: center;
+}
+
+/*DATE*/
+
+.data {
+	display: flex;
+	justify-content: center;
+}
+
+/*HOUR*/
+
+.hora {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+
+/*COLORS*/
+
+.container2 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#color-picker {
+	border: 3px solid whitesmoke;
+	border-radius: 5%;
+}
+
+/*INFO*/
+
+.info {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+}
